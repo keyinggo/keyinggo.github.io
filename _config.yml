@@ -1,2 +1,29 @@
+# Site settings
+
 theme: jekyll-theme-cayman
 title: Welcome to Keying's homepage!
+description: Business Analytics
+url: https://keyinggo.github.io/
+baseurl: ''
+email: keyinggo@usc.edu
+cover: https://bchiang7.github.io/img/og.png
+logo: https://bchiang7.github.io/img/emojis/technologist.png
+
+social:
+  - title: email
+    url: keyinggo@usc.edu
+  - title: instagram
+    url: https://instagram.com/keying___
+  - title: linkedin
+    url: https://www.linkedin.com/in/keying-gong/
+
+# Build settings
+markdown: kramdown
+
+
+
+keep_files:
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
